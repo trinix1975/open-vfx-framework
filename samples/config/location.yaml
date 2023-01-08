@@ -1,0 +1,24 @@
+---
+publish:
+    render:
+        image:
+            shot: /mnt/output/projects/<proj>/<epis>/<seq>/<shot>/publish/img/<ext>/<task>_<elem>_v<ver>/<task>_<elem>_v<ver><frame>.<ext>
+            asset: /mnt/output/projects/<proj>/_assets/<assetcat>/<asset>/publish/img/<ext>/<task>_<elem>_v<ver>/<task>_<elem>_v<ver><frame>.<ext>
+        geo:
+            shot: 
+            asset: /mnt/output/projects/<proj>/_assets/<assetcat>/<asset>/publish/geo/<task>_<elem>_v<ver>/<proj>_<assetcat>_<asset>_<task>_<elem>_v<ver><frame>.<ext>
+
+software:
+    render:
+        image:
+            shot: /mnt/prod/projects/<proj>/<epis>/<seq>/<shot>/3D/<soft>/render/<task>_<elem>/v<ver>/<proj>_<epis>_<seq>_<shot>_<task>_<elem>_v<ver><frame>.<ext>
+            asset: /mnt/prod/projects/<proj>/_assets/<assetcat>/<asset>/3D/<soft>/render/<task>_<elem>/v<ver>/<proj>_<assetcat>_<asset>_<task>_<elem>_v<ver><frame>.<ext>
+        geo:
+            shot: /mnt/prod/projects/<proj>/<epis>/<seq>/<shot>/3D/<soft>/cache/geo/<elem>/v<ver>/<proj>_<epis>_<seq>_<shot>_<task>_<elem>_v<ver>.bgeo.sc
+            asset: /mnt/prod/projects/<proj>/_assets/<assetcat>/<asset>/3D/<soft>/cache/geo/<elem>/v<ver>/<proj>_<assetcat>_<asset>_<task>_<elem>_v<ver><frame>.<ext>
+
+
+project: /mnt/prod/projects/<proj>
+project_archive: /mnt/archive/projs/<proj>
+
+hdri: /mnt/prod/projects/<proj>/<epis>/<seq>/library/hdri/<hdricat>

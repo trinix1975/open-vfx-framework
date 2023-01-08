@@ -1,0 +1,49 @@
+---
+proj:
+  label: Project
+  regex: '[a-zA-Z_]+'
+task:
+  label: Task
+  regex: '[a-zA-Z0-9]+'
+ver:
+  label: Version
+  regex: '[0-9]+'
+soft:
+  label: Software
+  regex: '[a-zA-Z0-9]+'
+elem:
+  label: Element
+  regex: '[a-zA-Z0-9-]+'
+frame:
+  label: Frame
+  regex: '[.0-9]*'
+ext:
+  label: Extension
+  regex: '[\.a-zA-Z0-9]+'
+
+# Shot
+epis:
+  label: Episode
+  regex: '[a-zA-Z0-9]+'
+seq:
+  label: Sequence
+  regex: '[a-zA-Z0-9_]+'
+shot:
+  label: Shot
+  regex: '[a-zA-Z0-9]+'
+
+# Asset
+assetcat:
+  label: Asset Category
+  regex: '[a-z]+'
+asset:
+  label: Asset
+  regex: '[a-zA-Z_]+'
+
+hdricat:
+  label: HDRI Category
+  regex: '[a-zA-Z0-9\*]+'
+
+
+
+
